@@ -1,0 +1,81 @@
+# Character Manager — TP3 (Java Visual SIH-6406)
+
+## Deskripsi Proyek
+
+Character Manager adalah program sederhana yang dibuat menggunakan bahasa pemrograman Java. Program ini digunakan untuk membuat dan mengelola data karakter seperti nama, jenis karakter, level, HP, attack power, dan mana.
+
+Pada tugas TP3 ini, saya mempelajari penggunaan class, object, constructor, encapsulation, enum, getter, setter, dan method dalam Java.
+
+## Fitur Program
+
+1. Membuat karakter menggunakan constructor.
+2. Menampilkan informasi karakter.
+3. Mengatur level karakter.
+4. HP dan attack power berubah sesuai level.
+5. Menambahkan atribut mana.
+6. Mengatur mana menggunakan getter dan setter dengan validasi.
+7. Mengecek kondisi karakter menggunakan method `isAlive()`.
+
+## Teknologi yang Digunakan
+
+- Bahasa pemrograman: Java
+- JDK: 17
+- Code Editor: Visual Studio Code
+- Sistem operasi: Windows
+
+## Struktur Folder Project
+
+```text
+CharacterManager/
+│
+├── src/
+│   └── com/
+│       └── unpri/
+│           └── charactermanager/
+│               ├── Main.java
+│               │
+│               └── model/
+│                   ├── Character.java
+│                   └── CharacterType.java
+│
+├── README.md
+│
+└── screenshots/
+    └── tp3-output.png
+```
+
+## Contoh Output Program
+
+Program menampilkan tiga karakter:
+
+- Arjuna (WARRIOR)
+- Merlin (MAGE)
+- Athena (ARCHER)
+
+Program juga menguji perubahan level karakter dan menampilkan hasil `isAlive()`.
+
+### Screenshot Output
+
+![Hasil Program Character Manager TP3](screenshots/<![alt text](<Screenshot 2026-11-05 182053.png>)
+
+## Identitas Mahasiswa
+
+- Nama Lengkap: [Yusup Aritonang]
+- NIM: [253303621294]
+- Kelas: [3pagib]
+- Mata Kuliah: Java Visual SIH-6406
+- Tugas: TP3 – Character Manager Sprint #1
+
+## Google Docs – Analisis Bagian D
+
+Link Google Docs:
+
+(https://docs.google.com/document/d/12jpQKsBpTNQYiyN0xItB5gu7oqW-SOBU/edit?usp=drive_link&ouid=117130834806065707688&rtpof=true&sd=true)
+
+Dokumen tersebut berisi analisis tentang ekosistem Java, encapsulation, constructor, enum, UML sederhana, dan refleksi desain program.
+
+---
+
+**Kesimpulan**
+
+Melalui tugas TP3 ini, saya belajar membuat class dan object menggunakan Java serta memahami pentingnya encapsulation dalam mengelola data. Saya juga belajar menambahkan fitur secara mandiri dan menguji program melalui output terminal.
